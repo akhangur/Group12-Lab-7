@@ -1,0 +1,89 @@
+<!doctype html>
+<title>GRID_LAYOUT</title>
+<style>
+    #grid {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        height: 100vh;
+        margin: 0;
+        font-size: 25px;
+        background-color: lightgreen;
+    }
+    
+    #grid>div {
+        color: white;
+        font-size: 4vw;
+        padding: 10px;
+        background: seagreen;
+        font-size: 25px;
+    }
+    
+    #grid>div:nth-child(1) {
+        grid-column: span 4;
+        font-size: 25px;
+        background-color: tomato;
+    }
+    
+    #grid>div:nth-child(2) {
+        grid-row: span 4;
+        font-size: 25px;
+        background-color: teal;
+    }
+    
+    #grid>div:nth-child(4) {
+        grid-column: span 2;
+        font-size: 25px;
+        background-color: violet;
+    }
+    
+    #grid>div:nth-child(5) {
+        grid-column: span 2;
+        font-size: 25px;
+        background-color: brown;
+    }
+    
+    #grid>div:nth-child(10) {
+        grid-column: span 3;
+        font-size: 25px;
+        background-color: coral;
+    }
+    
+    #grid>div:nth-child(11) {
+        grid-column: span 3;
+        font-size: 25px;
+        background-color: darkred;
+    }
+</style>
+
+<body id="grid">
+    <div>
+        <h1>
+            <center>This Page Was Built Using Grid Layout</center>
+        </h1>
+    </div>
+    <div>Menu
+        <br> Home
+        <br> About Us
+        <br> Contact
+        <br>
+        <a href="https://www.quackit.com/html/templates/css_grid_templates.cfm">Inspired From</a>
+
+    </div>
+    <div>Web Development: This subject helps in developing web pages
+        <p></p>
+    </div>
+    <div>Please read decription Below</div>
+    <div>Lab 1:This Lab is about Github</div>
+    <div>Lab 2: This lab covered basics in html</div>
+    <div>Lab 3: This lab covered basics in javascript</div>
+    <div>Lab 4:This lab covered basics in javascript</div>
+    <div>Lab 5:This lab covered about CSS Float Layout</div>
+    <div>Lab 6: This lab covered about css Flexbox</div>
+    <div>Lab 7: This lab covered about CSS Grid Layout</div>
+    <div>Project 1: Survey Page using HTML,CSS,JAvascript</div>
+
+
+    </div>
+</body>
